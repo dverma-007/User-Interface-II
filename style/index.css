@@ -119,6 +119,12 @@ q {
 
 * {
     border: 1px solid black;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -144,8 +150,6 @@ nav {
     padding: 5px;
 }
 
-.intro {}
-
 .projInfo h2 {
     display: flex;
     justify-content: center;
@@ -157,9 +161,49 @@ nav {
 .mySite p {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 10px;
     font-size: 20px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.bcgImage img {
+    /* background-repeat: norepeat; */
+    box-sizing: border-box;
+    background-position: center;
+    background-size: 100%;
+    border: 1px solid red;
+    width: 100%;
+    height: 50vh;
+}
+
+.projects {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.projPics {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 90%;
+}
+
+.firstImage,
+.secondImage,
+.thirdImage,
+.fourthImage {
+    width: 20%;
+    padding: 5px;
+}
+
+.projInfo2 {
+    display: box;
+    box-sizing: border-box;
+    width: 10%;
+    font-size: 15px;
+    padding: 200px 0px;
+    margin: 0 25px;
 }
