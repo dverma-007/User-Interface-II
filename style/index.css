@@ -1,1 +1,277 @@
-/* Add CSS styling here */
+                                                                                /* Add CSS styling here */
+                                                                            
+                                                                            html,
+                                                                            body,
+                                                                            div,
+                                                                            span,
+                                                                            applet,
+                                                                            object,
+                                                                            iframe,
+                                                                            table,
+                                                                            caption,
+                                                                            tbody,
+                                                                            tfoot,
+                                                                            thead,
+                                                                            tr,
+                                                                            th,
+                                                                            td,
+                                                                            del,
+                                                                            dfn,
+                                                                            em,
+                                                                            font,
+                                                                            img,
+                                                                            ins,
+                                                                            kbd,
+                                                                            q,
+                                                                            s,
+                                                                            samp,
+                                                                            small,
+                                                                            strike,
+                                                                            strong,
+                                                                            sub,
+                                                                            sup,
+                                                                            tt,
+                                                                            var,
+                                                                            h1,
+                                                                            h2,
+                                                                            h3,
+                                                                            h4,
+                                                                            h5,
+                                                                            h6,
+                                                                            p,
+                                                                            blockquote,
+                                                                            pre,
+                                                                            a,
+                                                                            abbr,
+                                                                            acronym,
+                                                                            address,
+                                                                            big,
+                                                                            cite,
+                                                                            code,
+                                                                            dl,
+                                                                            dt,
+                                                                            dd,
+                                                                            ol,
+                                                                            ul,
+                                                                            li,
+                                                                            fieldset,
+                                                                            form,
+                                                                            label,
+                                                                            legend {
+                                                                                vertical-align: baseline;
+                                                                                font-family: inherit;
+                                                                                font-weight: inherit;
+                                                                                font-style: inherit;
+                                                                                font-size: 100%;
+                                                                                outline: 0;
+                                                                                padding: 0;
+                                                                                margin: 0;
+                                                                                /* border: 0; */
+                                                                            }
+                                                                            /* remember to define focus styles! */
+                                                                            
+                                                                             :focus {
+                                                                                outline: 0;
+                                                                            }
+                                                                            
+                                                                            body {
+                                                                                background: white;
+                                                                                line-height: 1;
+                                                                                color: black;
+                                                                            }
+                                                                            
+                                                                            ol,
+                                                                            ul {
+                                                                                list-style: none;
+                                                                            }
+                                                                            /* tables still need cellspacing="0" in the markup */
+                                                                            
+                                                                            table {
+                                                                                border-collapse: separate;
+                                                                                border-spacing: 0;
+                                                                            }
+                                                                            
+                                                                            caption,
+                                                                            th,
+                                                                            td {
+                                                                                font-weight: normal;
+                                                                                text-align: left;
+                                                                            }
+                                                                            /* remove possible quote marks (") from <q> & <blockquote> */
+                                                                            
+                                                                            blockquote:before,
+                                                                            blockquote:after,
+                                                                            q:before,
+                                                                            q:after {
+                                                                                content: "";
+                                                                            }
+                                                                            
+                                                                            blockquote,
+                                                                            q {
+                                                                                quotes: "" "";
+                                                                            }
+                                                                            
+                                                                            * {
+                                                                                max-width: 100%;
+                                                                            }
+                                                                            
+                                                                            html {
+                                                                                font-size: 62.5%;
+                                                                                font-family: 'Roboto', sans-serif;
+                                                                            }
+                                                                            
+                                                                            h1 {
+                                                                                display: flex;
+                                                                                justify-content: center;
+                                                                                font-family: 'Roboto', sans-serif;
+                                                                                font-size: 5rem;
+                                                                                padding: 20px;
+                                                                            }
+                                                                            
+                                                                            nav {
+                                                                                display: flex;
+                                                                                font-size: 2rem;
+                                                                                /* width: 20%; */
+                                                                                justify-content: center;
+                                                                            }
+                                                                            
+                                                                            .first,
+                                                                            .second,
+                                                                            .third,
+                                                                            .fourth {
+                                                                                text-decoration: none;
+                                                                                padding: 10px 40px;
+                                                                                border: 1px solid black;
+                                                                            }
+                                                                            
+                                                                            .projInfo h2 {
+                                                                                display: flex;
+                                                                                justify-content: center;
+                                                                                padding: 30px;
+                                                                                font-family: 'Roboto', sans-serif;
+                                                                                font-size: 40px;
+                                                                            }
+                                                                            
+                                                                            .mySite p {
+                                                                                display: flex;
+                                                                                justify-content: center;
+                                                                                padding: 30px 5px;
+                                                                                font-size: 2rem;
+                                                                                width: 80%;
+                                                                                margin-left: auto;
+                                                                                margin-right: auto;
+                                                                            }
+                                                                            
+                                                                            .bcgImage img {
+                                                                                /* background-repeat: norepeat; */
+                                                                                box-sizing: border-box;
+                                                                                width: 100%;
+                                                                                margin-left: auto;
+                                                                                margin-right: auto;
+                                                                                object-fit: cover;
+                                                                                object-position: top left;
+                                                                                height: 50vh;
+                                                                            }
+                                                                            
+                                                                            .projects {
+                                                                                display: flex;
+                                                                                justify-content: flex-start;
+                                                                                width: 100%;
+                                                                                /* border: 1px solid black; */
+                                                                            }
+                                                                            
+                                                                            .projPics {
+                                                                                width: 100%;
+                                                                                display: flex;
+                                                                                justify-content: space-evenly;
+                                                                                max-width: 80%;
+                                                                                /* border: 1px solid yellow; */
+                                                                            }
+                                                                            
+                                                                            .firstImage,
+                                                                            .secondImage,
+                                                                            .thirdImage,
+                                                                            .fourthImage {
+                                                                                width: 20%;
+                                                                                padding: 40px 5px;
+                                                                                height: 40vh;
+                                                                                /* border: 1px solid blue; */
+                                                                            }
+                                                                            
+                                                                            .projInfo2 {
+                                                                                display: box;
+                                                                                box-sizing: border-box;
+                                                                                width: 20%;
+                                                                                font-size: 2rem;
+                                                                                padding: 130px 0px 70px 0px;
+                                                                                margin: 0 40px;
+                                                                                font-family: 'Quicksand', sans-serif;
+                                                                                /* border: 1px solid orange; */
+                                                                            }
+                                                                            
+                                                                            footer {
+                                                                                display: flex;
+                                                                                justify-content: center;
+                                                                                background-color: antiquewhite;
+                                                                                padding: 30px 0 30px 0;
+                                                                                text-decoration: none;
+                                                                            }
+                                                                            
+                                                                            .contactMe {
+                                                                                font-size: 2rem;
+                                                                                text-decoration: none;
+                                                                                /* border: 1px solid orange; */
+                                                                            }
+                                                                            
+                                                                            @media(max-width:800px) {
+                                                                                .intro p {
+                                                                                    padding: 20px 2px 30px 2px;
+                                                                                }
+                                                                                .projInfo h2 {
+                                                                                    padding: 20px 0px 10px 0px;
+                                                                                }
+                                                                                .bcgImage img {
+                                                                                    height: 25vh;
+                                                                                }
+                                                                                .firstImage,
+                                                                                .secondImage,
+                                                                                .thirdImage,
+                                                                                .fourthImage {
+                                                                                    height: 10vh;
+                                                                                    /* border: 1px solid blue; */
+                                                                                }
+                                                                                .projInfo2 {
+                                                                                    padding: 20px 0px 50px 0px;
+                                                                                    font-size: 1.7rem;
+                                                                                    margin: 0 10px;
+                                                                                }
+                                                                            }
+                                                                            /*This closes the 800px media query*/
+                                                                            
+                                                                            @media(max-width:500px) {
+                                                                                nav {
+                                                                                    font-size: 1.3rem;
+                                                                                    /* width: 20%; */
+                                                                                    justify-content: center;
+                                                                                }
+                                                                                .intro p {
+                                                                                    padding: 20px 2px 20px 2px;
+                                                                                    font-size: 1.5rem;
+                                                                                }
+                                                                                .projInfo h2 {
+                                                                                    padding: 20px 0px 10px 0px;
+                                                                                    font-size: 3.5rem;
+                                                                                }
+                                                                                .firstImage,
+                                                                                .secondImage,
+                                                                                .thirdImage,
+                                                                                .fourthImage {
+                                                                                    height: 15vh;
+                                                                                }
+                                                                                .projInfo2 {
+                                                                                    padding: 30px 0px 50px 0px;
+                                                                                    font-size: 1.3rem;
+                                                                                    margin: 0 10px;
+                                                                                }
+                                                                                /* border: 1px solid blue; */
+                                                                                /*This closes the 500px media query*/
